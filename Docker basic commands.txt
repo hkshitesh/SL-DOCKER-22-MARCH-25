@@ -1,0 +1,25 @@
+IMAGES
+docker images   -> list all images
+docker image ls
+docker pull -> download docker images DTR
+docker rmi <image-id>
+
+
+
+CONTAINER
+
+docker ps   -> list all running container
+docker ps -a -> list all running / not-running containers
+docker rm <cont-id>
+
+docker run <image-name>
+		docker run -it <image-name> /bin/bash
+		docker exec -it <cont-id> /bin/bash
+
+docker start <cont-id>
+docker stop <cont-id>
+
+
+
+
+	
